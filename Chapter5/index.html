@@ -1,0 +1,331 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH EXPRESSIONS</title>
+</head>
+<body>
+  <!-Chapter#5 -->
+  <!-- Q.1-Write a program that take two numbers & add them in a new variable. Show the result in your browser. -->
+         <script>
+var num1=5
+var num2=3
+var add=num1+num2;
+console.log("Sum of 3 and 5 is"+" "+ add); 
+
+</script>
+<!-- Q.2-Repeate tasks for subtraction, multiplication, division & modulus.-->
+<script> 
+var num1= 5
+var num2= 3
+var sub= num1-num2;
+console.log("Sub of 5 and 3 is"+ " " + sub);
+
+</script>
+        
+<script>
+var num1= 5
+var num2= 3
+var multiply= num1*num2;
+console.log("Multiplication of 5 and 3 is"+" "+ multiply);
+        
+</script>
+        
+<script>
+var num1= 5
+var num2= 3
+var divide=num1/num2;
+console.log("Division of 5 and 3 is"+ ""+ divide);
+</script>
+        
+<script>
+var num1= 5
+var num2= 3
+var modulus=num1%num2;
+console.log("Modulus of 5 and 3 is"+" "+ modulus);
+</script>
+<!--Q.3-Do the following using JS Mathematic Expressions-->
+<!--a.Declare a variable--> 
+<script>
+var x;
+        
+//b.Show the value of variable in your browser like "Value after variable declaration is:?? "-->
+        
+console.log("Value after variable declaration is"+" "+ x);
+        
+// //c.Initialize the variable with some number. -->
+        
+x = 5
+        
+// //d.Show the value of variable in your browser like "Initial value:5". -->
+
+console.log("Initial value:"+" "+ x);
+        
+// // // e.Increment the variable. -->
+x++;
+        
+// // f.Show the value of variable in your browser like "Value after increment is:6".  -->
+       
+console.log("Value after increment is:"+" "+ x);
+
+//g.Add 7 to the variable.  -->
+        
+x= 5+8;
+      
+//  //h.Show the value of variable in your browser like "Value after addition is:13". -->
+     
+console.log("Value after addition is:"+" "+ x);
+     
+// // //i.Decrement the variable.-->
+
+x--;
+
+//j.Show the value of variable in your browser like"Value after decrement is:12".-->
+       
+console.log("Value after decrement is:"+" "+ x);
+       
+//k.Show the remainder after dividing the variable's value by 3.-->
+        
+var remainder = x % 3;
+        
+// l.Output: "The remainder is :0".
+console.log("The remainder is :"+" "+ remainder);
+//  </script>
+ <!--Q.4- Cost of one movie ticket is 600 PKR. Write a script to
+// store
+// ticket price in a variable & calculate the cost of buying 5 tickets
+// to a movie. Example output: -->
+ <script>
+
+// Store the ticket price in a variable
+var ticketPrice = 600;
+
+//Calculate the cost of buying 5 tickets
+var numberOfTickets = 5;
+var totalCost = ticketPrice * numberOfTickets;
+
+//Display the result
+console.log("Totle cost to buy"+" " + numberOfTickets + " tickets to a movie is " + totalCost +"PKR.");
+       
+//  </script>
+
+<!--Q.5-Write a script to display multiplication table of any number in your browser. E.g -->
+<script>
+//creating a multiplication table
+for(var i =1; i<=10; i++)
+console.log("2*"+i+"=" +i*2 +""+"\n");
+                                
+</script>
+        
+<!--Q.6-The Temperature Converter: It’s hot out! Let’s make a
+converter based on the steps here.
+a. Store a Celsius temperature into a variable.
+b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+c. Now store a Fahrenheit temperature into a variable.
+d. Convert it to Celsius & output “NNoF is NNoC”.-->
+<script>
+//Store a Celsius temperature into a variable
+var celsius = 25;
+
+// Convert Celsius to Fahrenheit
+var fahrenheitFromCelsius = (celsius * 9 / 5) + 32;
+
+// Output the result
+console.log(celsius + "°C is " + fahrenheitFromCelsius + "°F");
+
+// Store a Fahrenheit temperature into a variable
+var fahrenheit = 70;
+
+// Convert Fahrenheit to Celsius
+var celsiusFromFahrenheit = (fahrenheit - 32) * 5 / 9;
+
+// Output the result
+console.log(fahrenheit + "°F is " + celsiusFromFahrenheit + "°C");
+
+</script>
+
+<!-- Q.7-Write a program to implement checkout process of a
+ shopping cart system for an e commerce website.Store the following in variables
+     a.Price of item 1 -->
+<!-- b.Price of item 2 -->
+<!-- c.Ordered quantity of item 1 -->
+<!-- d.Ordered quantity of item 2 -->
+<!-- e.Shipping charges -->
+<!--  -->
+<!-- Compute the total cost & show the receipt in your browser.--> 
+          <script> 
+ console.log("<h1>Shopping Cart</h1>");
+
+var item_1_price= 650
+console.log("price of item 1 is 650 \n");
+var item_1_quantity= 3
+console.log("Quantity of item 1 is 3 \n");
+var multiply= item_1_price*item_1_quantity;
+console.log(multiply);
+
+ item_2_Price = 100
+console.log("Price of item 2 is 100 \n");
+var item_2_Quantity = 7;
+console.log("Quantity of item 2 is 7 \n");
+shippingCharges = 100
+ var multiply= item_2_Price*item_2_Quantity;
+ console.log(multiply);
+
+shippingCharges = 100
+console.log("Shipping Charges 100 \n");
+console.log("Quantity of 2 item is 7 \n") //"Shipping Charges 100; \n \n");
+
+console.log(" Total cost of your order is 2750");
+//Define item prices and quantities
+let priceItem1 = 20; // Price of item 1
+let priceItem2 = 15; // Price of item 2
+let quantityItem1 = 3; // Ordered quantity of item 1
+let quantityItem2 = 2; // Ordered quantity of item 2
+let shippingCharges = 5; // Shipping charges
+
+// Calculate total cost
+let totalItem1 = priceItem1 * quantityItem1; // Total cost for item 1
+let totalItem2 = priceItem2 * quantityItem2; // Total cost for item 2
+let totalCos = totalItem1 + totalItem2 + shippingCharges; // Total cost including shipping
+
+// Generate receipt
+let receipt = `
+    <p><strong>Item 1:</strong> $${priceItem1} x ${quantityItem1} = $${totalItem1}</p>
+    <p><strong>Item 2:</strong> $${priceItem2} x ${quantityItem2} = $${totalItem2}</p>
+    <p><strong>Shipping Charges:</strong> $${shippingCharges}</p>
+    <hr>
+    <p><strong>Total Cost:</strong> $${totalCost}</p>
+`;
+
+//Display the receipt
+document.getElementById('receipt').innerHTML = receipt;
+
+</script> 
+<!-- Q.8-Store total marks & marks obtained by a student in 2 
+variables. Compute the percentage & show the result in your browser. -->
+<script> 
+
+document.write("<h1>Marks Sheet</h1>");
+
+var totalMarks = 980
+document.write("Total marks 950 <br>");
+var marksObtained = 804
+document.write("Marks Obtained 804 <br>");
+var percentage = totalMarks%marksObtained;
+var percentage = marksObtained*percentage/totalMarks;
+document.write("Percentage:82.0408163265306% <br>");
+ 
+ </script> 
+ 
+<!-- Q.9-Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
+script to convert the total currency to Pakistani Rupees.
+perform all calculation in a single expression.
+(Exchange rates: 1 US DOllar = 104.80 Pakistani rupees
+and 1 Saudi Riyal = 28 Pakistani Rupees) -->
+ <script>
+
+document.write("<h1>Currency in PKR</h1>");
+var us$ToPkr = 104.80;
+var saudiRiyalToPkr = 28;
+var totalInPkr = (10 * us$ToPkr) + (25 * saudiRiyalToPkr);
+document.write("Total Currency in PKR:"+" "+totalInPkr);
+
+</script> 
+<!-- Q.10-Write a program to initialize a variable with some
+ number and do arithmetic in following sequence:
+a. Add 5
+b. Multiply by 10
+c. Divide the result by 2
+Perform all calculations in a single expression -->
+
+  <script> 
+var number= 10
+var result= ((number+ 5) * 10)/2;
+console.log(result); 
+
+</script> 
+<!-- Q.11-The Age Calculation:Forgot how old someone is?
+Calculate it!
+a. Store the current year in a variable.
+b. store their birth year in a variable.
+c. Calculate their 2 possible ages based on the stored values.
+Output them to the screen like so: "They are either NN or NN years old".-->
+<script> 
+
+
+console.log("<h1>Age Calculator</h1>");
+
+// Store the current year in a variable
+var currentYear = 2016;
+
+// Store the birth year in a variable
+var birthYear = 1992;
+
+// Calculate the possible ages
+var age1 = currentYear - birthYear;
+var age2 = age1 - 1;
+
+// Output the results
+console.log("They are either " + age1 + " or " + age2 + " years old");
+
+</script> 
+<!-- Q.12-The Geometrizer: Calculate properties of a circle.
+a. Store a radius into a variable.
+b. calculate the circumference based on the radius, and
+output "The circumference is NN".
+Calculate the area based on the  radius, and output "The
+ area is NN".-->
+ <script> 
+
+console.log("<h1>The Geometrizer</h1>");
+
+var radius = 20; // Example radius
+var pi = 3.142; // Approximate value of π
+
+var circumference = 2 * pi * radius; // Calculate the circumference
+var area = pi * radius * radius; // Calculate the area
+
+console.log("Redious of a circle:"+" "+radius);
+console.log("The circumference is " + circumference); // Output the circumference
+console.log("The area is " + area); // Output the area
+
+
+</script> 
+<!-- Q.13-The Lifetime Supply calculator: Ever wonder how
+much a "lifetime supply" of your favorite snack is?
+Wonder no more.
+a.Store your favorite snack into a variable.
+b.Store your current age into a  variable.
+c.Store a maximum age into a variable.
+d.Store an estimated amount per day (as a number).
+e.Calculate how many would you eat total for the rest of
+your life.
+Output the result to the screen like so: "You will need
+NNNN to last you until the ripe old age of NN".-->
+ 
+<Script>
+
+console.log("<h1>")
+
+var myFavSnack= "chocolate chip"
+var currentAge= 15
+var maximumAge= 65
+amoutOfSnackPerDay= 3
+var result1= maximumAge - currentAge;
+var result2= result1 * amoutOfSnackPerDay;
+
+console.log("Favourite Snack:" + myFavSnack+""+"\nCurrent Age:"
++ currentAge +"\nEstimated Maximum Age:" + maximumAge + "\nAmount of snacks per day:" + amoutOfSnackPerDay);
+
+console.log("You will need" +" "+ result2 +" "+"chocolate chip to last you until the ripe old age of" +" "+ maximumAge);
+
+
+
+</script>
+
+    
+</body>
+</html>
+     
